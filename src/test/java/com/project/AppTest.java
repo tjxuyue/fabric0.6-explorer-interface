@@ -1,4 +1,4 @@
-package com.cetc.data.client;
+package com.project;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

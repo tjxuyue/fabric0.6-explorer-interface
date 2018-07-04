@@ -1,6 +1,6 @@
-package com.cetc.data.client.service;
+package com.project.service;
 
-import com.cetc.data.client.entity.Demo;
+import com.project.entity.Demo;
 
 public interface DemoService {
 	public Demo demo(Demo demo);

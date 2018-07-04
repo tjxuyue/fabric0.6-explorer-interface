@@ -1,4 +1,4 @@
-package com.cetc.data.client.serviceImpl;
+package com.project.serviceImpl;
 
 import java.util.List;
 
@@ -6,15 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
-import com.cetc.data.client.entity.Demo;
-import com.cetc.data.client.mapper.DemoMapper;
-import com.cetc.data.client.service.DemoService;
+import com.project.entity.Demo;
+import com.project.service.DemoService;
 
 @Service
 public class DemoServiceImpl implements DemoService {
 
 	@Autowired
-	private DemoMapper demoDao;
+	private com.project.mapper.DemoMapper demoDao;
 
 	public Demo demo(Demo demo) {
 

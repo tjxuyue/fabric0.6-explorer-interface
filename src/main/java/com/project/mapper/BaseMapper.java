@@ -1,4 +1,4 @@
-package com.cetc.data.client.mapper;
+package com.project.mapper;
 
 import tk.mybatis.mapper.common.Mapper;
 

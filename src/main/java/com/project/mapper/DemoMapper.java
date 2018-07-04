@@ -1,8 +1,9 @@
-package com.cetc.data.client.mapper;
+package com.project.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Mapper;
-import com.cetc.data.client.entity.Demo;
+
+import com.project.entity.Demo;
 
 @Mapper
 public interface DemoMapper extends BaseMapper<Demo> {

@@ -1,4 +1,4 @@
-package com.cetc.data.client.entity;
+package com.project.entity;
 
 public class BaseEntity {
 
